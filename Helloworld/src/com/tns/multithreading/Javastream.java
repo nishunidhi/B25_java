@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Javastream {
 	public static void main(String[] args) {
-		List<String> name=new ArrayList<>();
+		List<String> name=new List<>();
 		name.add("meena");
 		name.add("adinina");
 		name.add("priya");
