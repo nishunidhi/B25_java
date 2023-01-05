@@ -32,7 +32,7 @@ public class Address implements Serializable {
 	//to create bi-directional relationship, use one to one with mappedBy 
 	//mappedBy attribute indicates property name of owner i.e. Student class
 	@OneToOne(mappedBy="address")
-	private Student student;
+	private student student;
 	
 	public int getAddressId() {
 		return addressId;
